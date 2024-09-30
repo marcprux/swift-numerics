@@ -7,7 +7,7 @@ on:
     branches:
       - '*'
   schedule:
-    - cron:  '0 6,17 * * *'
+    - cron:  '15 9,21 * * *'
 jobs:
   test:
     runs-on: macos-13
